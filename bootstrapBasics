@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Basics</title>
+	<link rel="stylesheet" type="text/css" href="Bootstrap.css">
+</head>
+<body>
+<h1>Bootstrap Basics</h1>
+
+<button class="btn btn-danger btn-xs">CLICK ME!</button>
+</body>
+
+<a href="http://www.getbootstrap.com" class="btn btn-info btn-lg">Bootstrap Docs</a>
+
+<button class="btn btn-success btn-xs">CLICK ME!</button>
+</body>
+<button class="btn btn-success btn-xs" disabled="disabled">CLICK ME!</button>
+</body>
+<button class="btn btn-success btn-xs active">CLICK ME!</button>
+
+
+<div class="container">
+<div class="jumbotron">
+	<h1>This is a Jumbotron!!</h1>
+	<p>Loremsunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<button class="btn btn-success btn-xl">Hi There</button>
+</div>
+
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  </form>
+<form>
+  <div class="form-group">
+    <label for="exampleFormControlFile1">Example file input</label>
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+  </div>
+</form>
+<button type="submit" class="btn btn-primary">Submit</button>
+</div>
+
+</body>
+
+</html>
