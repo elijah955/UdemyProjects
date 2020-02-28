@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+</head>
+<body>
+
+<table border="1">
+
+	<thead>
+		<tr>
+		<th>Name</th>
+		<th>Age</th>
+		<th>Extra</th>
+	</tr>
+	</thead>
+
+	<tbody>
+	<tr>
+		<td>Eli</td>
+		<td>24</td>
+		<td>Idfk</td>
+	</tr>
+	<tr> 
+		<td>Bob Saget</td>
+		<td>73</td>
+		<td>Hi</td>
+	</tr>	
+</tbody>
+</table>
+
+</body>
+</html>
